@@ -22,8 +22,8 @@
         }, 
         {
             "location": "/blogs/", 
-            "text": "ReactJS\n\n\nAutomated Test\n\n\nBDD\n\n\nREST API\n\n\nServer Less\n\n\nMicor Services\n\n\nHubSpot\n\n\nComing Soon...", 
-            "title": "ReactJS"
+            "text": "Blogs on following topics coming soon\n\n\nReactJS\n\n\nAutomated Test\n\n\nBDD\n\n\nREST API\n\n\nServer Less\n\n\nMicor Services\n\n\nHubSpot", 
+            "title": "Home"
         }, 
         {
             "location": "/blogs/#reactjs", 
@@ -57,7 +57,7 @@
         }, 
         {
             "location": "/blogs/#hubspot", 
-            "text": "Coming Soon...", 
+            "text": "", 
             "title": "HubSpot"
         }, 
         {

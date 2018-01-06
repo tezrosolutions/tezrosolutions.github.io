@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Introduction\n\n\nTezro Solutions\n\nOn this website you will find information about latest trends in the world of web and software development. You will also find best practises for different platforms as well.\n\n\nGuidelines\n\n\nHubSpot\n\n\nBlogs\n\n\nView Latest Blogs", 
-            "title": "Introduction"
+            "text": "Home\n\n\nTezro Solutions\n\nOn this website you will find information about latest trends in the world of web and software development. You will also find best practises for different platforms as well.\n\n\nGuidelines\n\n\nHubSpot\n\n\nBlogs\n\n\nView Latest Blogs", 
+            "title": "Home"
         }, 
         {
-            "location": "/#introduction", 
+            "location": "/#home", 
             "text": "", 
-            "title": "Introduction"
+            "title": "Home"
         }, 
         {
             "location": "/#guidelines", 

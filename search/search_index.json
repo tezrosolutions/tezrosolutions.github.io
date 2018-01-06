@@ -292,12 +292,12 @@
         }, 
         {
             "location": "/guidelines/hubspot/", 
-            "text": ".bs-sidebar {\n    display: none;\n}\n\n\n\n\nHubSpot Guidelines\n\n\nThis section covers the best practices and guidelines for working on HubSpot.", 
+            "text": ".bs-sidebar {\n    display: none;\n}\n\n\n\n\nHubSpot Guidelines\n\n\nThis section covers the best practices and guidelines for working on HubSpot.\n\n\nOrganizing Design Manager and File Manager\n\n\nForms\n\n\nMockups and Images\n\n\nQuality Assurance\n\n\nIncluding CSS, JavaScript files and Images (Not for Emails)\n\n\nPage Load Time\n\n\nDeveloping Emails\n\n\nDeveloping Modules\n\n\nStaging Environment\n\n\nArchiving Strategy", 
             "title": "Home"
         }, 
         {
             "location": "/guidelines/hubspot/#hubspot-guidelines", 
-            "text": "This section covers the best practices and guidelines for working on HubSpot.", 
+            "text": "This section covers the best practices and guidelines for working on HubSpot.  Organizing Design Manager and File Manager  Forms  Mockups and Images  Quality Assurance  Including CSS, JavaScript files and Images (Not for Emails)  Page Load Time  Developing Emails  Developing Modules  Staging Environment  Archiving Strategy", 
             "title": "HubSpot Guidelines"
         }
     ]

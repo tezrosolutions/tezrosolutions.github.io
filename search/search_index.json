@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Home\n\n\nOn this website you will find information about latest trends in the world of web and software development. You will also find best practises/guidelines for different platforms.\n\n\nGuidelines\n\n\nHubSpot\n\n\nBlogs\n\n\nView Latest Blogs", 
+            "text": "Home\n\n\nOn this website you will find information about latest trends in the world of web and software development. You will also find best practises/guidelines for different platforms.\n\n\nBlogs\n\n\nView Latest Blogs\n\n\nGuidelines\n\n\nHubSpot", 
             "title": "Home"
         }, 
         {
@@ -11,14 +11,14 @@
             "title": "Home"
         }, 
         {
-            "location": "/#guidelines", 
-            "text": "HubSpot", 
-            "title": "Guidelines"
-        }, 
-        {
             "location": "/#blogs", 
             "text": "View Latest Blogs", 
             "title": "Blogs"
+        }, 
+        {
+            "location": "/#guidelines", 
+            "text": "HubSpot", 
+            "title": "Guidelines"
         }, 
         {
             "location": "/blogs/", 
@@ -161,67 +161,67 @@
             "title": "Images and Logos"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/", 
             "text": "Organizing Design Manager and File Manager\n\n\nProblem/Situation\n\n\nAt the moment our templates, modules, code files and other static assets are arranged in an unstructured way. There is apparently no organization in place! Every time a new page design request is received, a template is being started from scratch (although leveraging the existing modules and code where possible). At the end of day we have a hard time figuring out what template is being used and which one is not used any more.\n\n\nThe idea is to classify all templates, code files and static assets in an intuitive way.\n\n\nKey Guidelines\n\n\n\n\nAvoid special characters where possible. \n\n\nKeep the names and labels concise.  They shouldn\u2019t be more than 25 characters.\n\n\nA record retention strategy needs to be in place, we will talk about it in a bit.\n\n\nUse relevant date information in names and labels where possible, e.g. a folder that contains all the template built in January 2017 should have following name i.e. 201701Templates. Using reverse order date will arrange the list in chronological order (See Figure 1, Figure2).\n\n\nUse short forms and abbreviations where possible for example a thank you page template can be called Template_TY.\n\n\nThe time unit for classifying stuff is a month e.g March 2018.\n\n\n\n\nNaming Folders\n\n\nTemplates and Coded files\nAll the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.\n\n\nFile Manager\n\n\nBased on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home \n Image \n 201712 (For all images used in home page in 201712). See Figure 3.\n\n\n\n\nFigure 1\n\n\n\n\nFigure 2\n\n\n\n\nFigure 3\n\n\nNaming Templates\n\n\nNaming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a \u201c\nTemplate\n\u201d and append it with a \u201c_Live\u201d in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.\nSome examples: \n1.  A template for a live blog will be called 201812_Template_Blog_Live.\n2.  A template for a development request demo page will be called 20181112_Template_RequestDemo.\n\n\nWhenever a new template is live make sure you remove \"_Live\" from any previous live template. At a given time only one template can have \"_Live\" flag in its name.\n\n\nIf a template has been revised more than once in a month, put day as well in the first part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.\n\n\nNaming Coded Files\n\n\nAll coded files should have a lower case name. For example CSS and Javascript files specific to the Blog can be called blog.css and blog.js respectively. The idea is to use lower case name for all files, which the end user should not play around with, such as the coded files.\n\n\nNaming Modules\n\n\nModules cannot be classified into templates. There are two types of modules though i.e Custom and Global.\n\n\nCustom Modules\n\n\nThe naming convention for a custom module should be intuitive and should reflect the feature it is developed for and the reverse timestamp. For example if a module is build for a carousel in Feb 2018, it should be called 201802_Custom_Carousel. Using reverse timestamp will put it in a chronological order.\n\n\nGlobal Modules\n\n\nThe naming convention for global modules will remain similar to custom modules. Just replace Custom with Global e.g. a global module for header would be called 201802_Global_Header.\n\n\nNaming Module Fields\n\n\nA module field should be named in following order: Purpose Type e.g. if a text field is used for displaying headline in a hero area module, it should be called Headline Text. Let HubSpot engine take care of internal naming.\n\n\nNaming Pages\n\n\nNaming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live. \n\n\nThe internal name and title of the page should be identical.", 
             "title": "Organizing Design Manager and File Manager"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#organizing-design-manager-and-file-manager", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#organizing-design-manager-and-file-manager", 
             "text": "", 
             "title": "Organizing Design Manager and File Manager"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#problemsituation", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#problemsituation", 
             "text": "At the moment our templates, modules, code files and other static assets are arranged in an unstructured way. There is apparently no organization in place! Every time a new page design request is received, a template is being started from scratch (although leveraging the existing modules and code where possible). At the end of day we have a hard time figuring out what template is being used and which one is not used any more.  The idea is to classify all templates, code files and static assets in an intuitive way.", 
             "title": "Problem/Situation"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#key-guidelines", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#key-guidelines", 
             "text": "Avoid special characters where possible.   Keep the names and labels concise.  They shouldn\u2019t be more than 25 characters.  A record retention strategy needs to be in place, we will talk about it in a bit.  Use relevant date information in names and labels where possible, e.g. a folder that contains all the template built in January 2017 should have following name i.e. 201701Templates. Using reverse order date will arrange the list in chronological order (See Figure 1, Figure2).  Use short forms and abbreviations where possible for example a thank you page template can be called Template_TY.  The time unit for classifying stuff is a month e.g March 2018.", 
             "title": "Key Guidelines"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#naming-folders", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-folders", 
             "text": "Templates and Coded files\nAll the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.", 
             "title": "Naming Folders"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#file-manager", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#file-manager", 
             "text": "Based on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home   Image   201712 (For all images used in home page in 201712). See Figure 3.   Figure 1   Figure 2   Figure 3", 
             "title": "File Manager"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#naming-templates", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-templates", 
             "text": "Naming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a \u201c Template \u201d and append it with a \u201c_Live\u201d in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.\nSome examples: \n1.  A template for a live blog will be called 201812_Template_Blog_Live.\n2.  A template for a development request demo page will be called 20181112_Template_RequestDemo.  Whenever a new template is live make sure you remove \"_Live\" from any previous live template. At a given time only one template can have \"_Live\" flag in its name.  If a template has been revised more than once in a month, put day as well in the first part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.", 
             "title": "Naming Templates"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#naming-coded-files", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-coded-files", 
             "text": "All coded files should have a lower case name. For example CSS and Javascript files specific to the Blog can be called blog.css and blog.js respectively. The idea is to use lower case name for all files, which the end user should not play around with, such as the coded files.", 
             "title": "Naming Coded Files"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#naming-modules", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-modules", 
             "text": "Modules cannot be classified into templates. There are two types of modules though i.e Custom and Global.", 
             "title": "Naming Modules"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#custom-modules", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#custom-modules", 
             "text": "The naming convention for a custom module should be intuitive and should reflect the feature it is developed for and the reverse timestamp. For example if a module is build for a carousel in Feb 2018, it should be called 201802_Custom_Carousel. Using reverse timestamp will put it in a chronological order.", 
             "title": "Custom Modules"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#global-modules", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#global-modules", 
             "text": "The naming convention for global modules will remain similar to custom modules. Just replace Custom with Global e.g. a global module for header would be called 201802_Global_Header.", 
             "title": "Global Modules"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#naming-module-fields", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-module-fields", 
             "text": "A module field should be named in following order: Purpose Type e.g. if a text field is used for displaying headline in a hero area module, it should be called Headline Text. Let HubSpot engine take care of internal naming.", 
             "title": "Naming Module Fields"
         }, 
         {
-            "location": "/guidelines/hubspot/Organizing/#naming-pages", 
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-pages", 
             "text": "Naming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live.   The internal name and title of the page should be identical.", 
             "title": "Naming Pages"
         }, 
@@ -289,6 +289,16 @@
             "location": "/guidelines/hubspot/Staging-Environment/#blogs", 
             "text": "Staging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.  meta name=\"robots\" content=\"noindex\"  Also make sure you select a demo domain for all staging blogs.", 
             "title": "Blogs"
+        }, 
+        {
+            "location": "/guidelines/hubspot/", 
+            "text": ".bs-sidebar {\n    display: none;\n}\n\n\n\n\nHubSpot Guidelines\n\n\nThis section covers the best practices and guidelines for working on HubSpot.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/guidelines/hubspot/#hubspot-guidelines", 
+            "text": "This section covers the best practices and guidelines for working on HubSpot.", 
+            "title": "HubSpot Guidelines"
         }
     ]
 }

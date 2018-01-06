@@ -22,8 +22,13 @@
         }, 
         {
             "location": "/blogs/", 
-            "text": "Blogs on following topics coming soon\n\n\nReactJS\n\n\nAutomated Test\n\n\nBDD\n\n\nREST API\n\n\nServer Less\n\n\nMicor Services\n\n\nHubSpot", 
-            "title": "Home"
+            "text": "Blog\n\n\nBlog posts on following topics coming soon\n\n\nReactJS\n\n\nAutomated Test\n\n\nBDD\n\n\nREST API\n\n\nServer Less\n\n\nMicor Services\n\n\nHubSpot", 
+            "title": "Blog"
+        }, 
+        {
+            "location": "/blogs/#blog", 
+            "text": "Blog posts on following topics coming soon", 
+            "title": "Blog"
         }, 
         {
             "location": "/blogs/#reactjs", 

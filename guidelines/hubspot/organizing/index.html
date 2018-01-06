@@ -1,0 +1,700 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.2.6">
+    
+    
+      
+        <title>Organizing Design Manager and File Manager - Tezro Solutions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.6525f7f6.css">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../../../extra.css">
+    
+    
+  </head>
+  
+    <body>
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="Tezro Solutions" class="md-header-nav__button md-logo">
+          
+            <img src="../../../img/logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Tezro Solutions
+              </span>
+              <span class="md-header-nav__topic">
+                Organizing Design Manager and File Manager
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <img src="../../../img/logo.png" width="24" height="24">
+      
+    </span>
+    Tezro Solutions
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Blogs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Blogs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../blogs/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Guidelines
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Guidelines
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" checked>
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Hubspot
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Hubspot
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Archiving Strategy/" title="Archiving Strategy" class="md-nav__link">
+      Archiving Strategy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Developing Emails/" title="Developing Emails" class="md-nav__link">
+      Developing Emails
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Developing Modules/" title="Developing Modules" class="md-nav__link">
+      Developing Modules
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../External Files/" title="Including CSS, JavaScript files and Images (Not for Emails)" class="md-nav__link">
+      Including CSS, JavaScript files and Images (Not for Emails)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Forms/" title="Forms" class="md-nav__link">
+      Forms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Page Load Time/" title="Page Load Time" class="md-nav__link">
+      Page Load Time
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Quality Assurance/" title="Quality Assurance" class="md-nav__link">
+      Quality Assurance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Staging Environment/" title="Staging Environment" class="md-nav__link">
+      Staging Environment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../images/" title="Mockups and Images" class="md-nav__link">
+      Mockups and Images
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Organizing Design Manager and File Manager
+      </label>
+    
+    <a href="./" title="Organizing Design Manager and File Manager" class="md-nav__link md-nav__link--active">
+      Organizing Design Manager and File Manager
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problemsituation" title="Problem/Situation" class="md-nav__link">
+    Problem/Situation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-guidelines" title="Key Guidelines" class="md-nav__link">
+    Key Guidelines
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-folders" title="Naming Folders" class="md-nav__link">
+    Naming Folders
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-manager" title="File Manager" class="md-nav__link">
+    File Manager
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-templates" title="Naming Templates" class="md-nav__link">
+    Naming Templates
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-coded-files" title="Naming Coded Files" class="md-nav__link">
+    Naming Coded Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-modules" title="Naming Modules" class="md-nav__link">
+    Naming Modules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-modules" title="Custom Modules" class="md-nav__link">
+    Custom Modules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#global-modules" title="Global Modules" class="md-nav__link">
+    Global Modules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-module-fields" title="Naming Module Fields" class="md-nav__link">
+    Naming Module Fields
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-pages" title="Naming Pages" class="md-nav__link">
+    Naming Pages
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problemsituation" title="Problem/Situation" class="md-nav__link">
+    Problem/Situation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-guidelines" title="Key Guidelines" class="md-nav__link">
+    Key Guidelines
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-folders" title="Naming Folders" class="md-nav__link">
+    Naming Folders
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-manager" title="File Manager" class="md-nav__link">
+    File Manager
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-templates" title="Naming Templates" class="md-nav__link">
+    Naming Templates
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-coded-files" title="Naming Coded Files" class="md-nav__link">
+    Naming Coded Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-modules" title="Naming Modules" class="md-nav__link">
+    Naming Modules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-modules" title="Custom Modules" class="md-nav__link">
+    Custom Modules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#global-modules" title="Global Modules" class="md-nav__link">
+    Global Modules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-module-fields" title="Naming Module Fields" class="md-nav__link">
+    Naming Module Fields
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-pages" title="Naming Pages" class="md-nav__link">
+    Naming Pages
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="organizing-design-manager-and-file-manager">Organizing Design Manager and File Manager</h1>
+<h3 id="problemsituation">Problem/Situation</h3>
+<p>At the moment our templates, modules, code files and other static assets are arranged in an unstructured way. There is apparently no organization in place! Every time a new page design request is received, a template is being started from scratch (although leveraging the existing modules and code where possible). At the end of day we have a hard time figuring out what template is being used and which one is not used any more.</p>
+<p>The idea is to classify all templates, code files and static assets in an intuitive way.</p>
+<h3 id="key-guidelines">Key Guidelines</h3>
+<ol>
+<li>Avoid special characters where possible. </li>
+<li>Keep the names and labels concise.  They shouldn’t be more than 25 characters.</li>
+<li>A record retention strategy needs to be in place, we will talk about it in a bit.</li>
+<li>Use relevant date information in names and labels where possible, e.g. a folder that contains all the template built in January 2017 should have following name i.e. 201701Templates. Using reverse order date will arrange the list in chronological order (See Figure 1, Figure2).</li>
+<li>Use short forms and abbreviations where possible for example a thank you page template can be called Template_TY.</li>
+<li>The time unit for classifying stuff is a month e.g March 2018.</li>
+</ol>
+<h3 id="naming-folders">Naming Folders</h3>
+<p>Templates and Coded files
+All the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.</p>
+<h3 id="file-manager">File Manager</h3>
+<p>Based on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home &gt; Image &gt; 201712 (For all images used in home page in 201712). See Figure 3.</p>
+<p><img alt="Figure 1" src="../../../img/guidelines/hubspot/figure-1.png" /></p>
+<p>Figure 1</p>
+<p><img alt="Figure 2" src="../../../img/guidelines/hubspot/figure-2.png" /></p>
+<p>Figure 2</p>
+<p><img alt="Figure 3" src="../../../img/guidelines/hubspot/figure-3.png" /></p>
+<p>Figure 3</p>
+<h3 id="naming-templates">Naming Templates</h3>
+<p>Naming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a “<em>Template</em>” and append it with a “_Live” in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.
+Some examples: 
+1.  A template for a live blog will be called 201812_Template_Blog_Live.
+2.  A template for a development request demo page will be called 20181112_Template_RequestDemo.</p>
+<p>Whenever a new template is live make sure you remove "_Live" from any previous live template. At a given time only one template can have "_Live" flag in its name.</p>
+<p>If a template has been revised more than once in a month, put day as well in the first part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.</p>
+<h3 id="naming-coded-files">Naming Coded Files</h3>
+<p>All coded files should have a lower case name. For example CSS and Javascript files specific to the Blog can be called blog.css and blog.js respectively. The idea is to use lower case name for all files, which the end user should not play around with, such as the coded files.</p>
+<h3 id="naming-modules">Naming Modules</h3>
+<p>Modules cannot be classified into templates. There are two types of modules though i.e Custom and Global.</p>
+<h3 id="custom-modules">Custom Modules</h3>
+<p>The naming convention for a custom module should be intuitive and should reflect the feature it is developed for and the reverse timestamp. For example if a module is build for a carousel in Feb 2018, it should be called 201802_Custom_Carousel. Using reverse timestamp will put it in a chronological order.</p>
+<h3 id="global-modules">Global Modules</h3>
+<p>The naming convention for global modules will remain similar to custom modules. Just replace Custom with Global e.g. a global module for header would be called 201802_Global_Header.</p>
+<h3 id="naming-module-fields">Naming Module Fields</h3>
+<p>A module field should be named in following order: Purpose Type e.g. if a text field is used for displaying headline in a hero area module, it should be called Headline Text. Let HubSpot engine take care of internal naming.</p>
+<h3 id="naming-pages">Naming Pages</h3>
+<p>Naming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live. </p>
+<p>The internal name and title of the page should be identical.</p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../images/" title="Mockups and Images" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Mockups and Images
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.cae2244d.js"></script>
+      
+      <script>app.initialize({version:"0.17.2",url:{base:"../../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

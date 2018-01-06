@@ -22,71 +22,106 @@
         }, 
         {
             "location": "/blogs/", 
-            "text": "Coming Soon...", 
-            "title": "Home"
+            "text": "ReactJS\n\n\nAutomated Test\n\n\nBDD\n\n\nREST API\n\n\nServer Less\n\n\nMicor Services\n\n\nHubSpot\n\n\nComing Soon...", 
+            "title": "ReactJS"
         }, 
         {
-            "location": "/guidelines/hubspot/Archiving Strategy/", 
+            "location": "/blogs/#reactjs", 
+            "text": "", 
+            "title": "ReactJS"
+        }, 
+        {
+            "location": "/blogs/#automated-test", 
+            "text": "", 
+            "title": "Automated Test"
+        }, 
+        {
+            "location": "/blogs/#bdd", 
+            "text": "", 
+            "title": "BDD"
+        }, 
+        {
+            "location": "/blogs/#rest-api", 
+            "text": "", 
+            "title": "REST API"
+        }, 
+        {
+            "location": "/blogs/#server-less", 
+            "text": "", 
+            "title": "Server Less"
+        }, 
+        {
+            "location": "/blogs/#micor-services", 
+            "text": "", 
+            "title": "Micor Services"
+        }, 
+        {
+            "location": "/blogs/#hubspot", 
+            "text": "Coming Soon...", 
+            "title": "HubSpot"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Archiving-Strategy/", 
             "text": "Archiving Strategy\n\n\nCan we archive all unused templates, modules, coded files, images and assets?", 
             "title": "Archiving Strategy"
         }, 
         {
-            "location": "/guidelines/hubspot/Archiving Strategy/#archiving-strategy", 
+            "location": "/guidelines/hubspot/Archiving-Strategy/#archiving-strategy", 
             "text": "Can we archive all unused templates, modules, coded files, images and assets?", 
             "title": "Archiving Strategy"
         }, 
         {
-            "location": "/guidelines/hubspot/Developing Emails/", 
+            "location": "/guidelines/hubspot/Developing-Emails/", 
             "text": "Developing Emails\n\n\nBackground\n\n\nThere are two ways to create an email template in HubSpot using Design Manager or using Coded files. From a compatibility perspective we the latter approach is preferred, as it gives us more control over the template code. If due to some reasons customer prefers to build template using Design Manager, they should compromise on potential compatibility problems.\n\n\nSetting Expectations\n\n\n\n\nThe email templates we develop are compatible with 33+ desktop and mobile email clients.\n\n\nWe use HubSpot built in Litmus testing for validating email\u2019s design in email clients.\n\n\nWe do real device testing for only important email clients.\n\n\nGmail mobile email client is known to have problems when displaying emails. We can develop an email template that may display reasonably there but it will have problems on other email clients. We normally shrink emails there.\n\n\n\n\nDevelopment Best Practices\n\n\n\n\nEach section in the email design should be translated as a module in HubSpot email template.\n\n\n\n\nMore to be added later\u2026", 
             "title": "Developing Emails"
         }, 
         {
-            "location": "/guidelines/hubspot/Developing Emails/#developing-emails", 
+            "location": "/guidelines/hubspot/Developing-Emails/#developing-emails", 
             "text": "", 
             "title": "Developing Emails"
         }, 
         {
-            "location": "/guidelines/hubspot/Developing Emails/#background", 
+            "location": "/guidelines/hubspot/Developing-Emails/#background", 
             "text": "There are two ways to create an email template in HubSpot using Design Manager or using Coded files. From a compatibility perspective we the latter approach is preferred, as it gives us more control over the template code. If due to some reasons customer prefers to build template using Design Manager, they should compromise on potential compatibility problems.", 
             "title": "Background"
         }, 
         {
-            "location": "/guidelines/hubspot/Developing Emails/#setting-expectations", 
+            "location": "/guidelines/hubspot/Developing-Emails/#setting-expectations", 
             "text": "The email templates we develop are compatible with 33+ desktop and mobile email clients.  We use HubSpot built in Litmus testing for validating email\u2019s design in email clients.  We do real device testing for only important email clients.  Gmail mobile email client is known to have problems when displaying emails. We can develop an email template that may display reasonably there but it will have problems on other email clients. We normally shrink emails there.", 
             "title": "Setting Expectations"
         }, 
         {
-            "location": "/guidelines/hubspot/Developing Emails/#development-best-practices", 
+            "location": "/guidelines/hubspot/Developing-Emails/#development-best-practices", 
             "text": "Each section in the email design should be translated as a module in HubSpot email template.   More to be added later\u2026", 
             "title": "Development Best Practices"
         }, 
         {
-            "location": "/guidelines/hubspot/Developing Modules/", 
+            "location": "/guidelines/hubspot/Developing-Modules/", 
             "text": "Developing Modules\n\n\nThe purpose of a HubSpot module is to promote reusability. It should be a preference to use modules whenever possible.", 
             "title": "Developing Modules"
         }, 
         {
-            "location": "/guidelines/hubspot/Developing Modules/#developing-modules", 
+            "location": "/guidelines/hubspot/Developing-Modules/#developing-modules", 
             "text": "The purpose of a HubSpot module is to promote reusability. It should be a preference to use modules whenever possible.", 
             "title": "Developing Modules"
         }, 
         {
-            "location": "/guidelines/hubspot/External Files/", 
+            "location": "/guidelines/hubspot/External-Files/", 
             "text": "Including CSS, JavaScript files and Images (Not for Emails)\n\n\nCSS and JavaScript files\n\n\n\n\nAll JavaScript files will only be included in the footer.\n\n\nAll CSS files will only be included in the header.\n\n\nNo inline CSS and JavaScript is allowed. This will keep the code cleaner and manageable.\n\n\nAny third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.\n\n\nWhere possible, create one respective file for all custom CSS and Javascript code i.e. styles.css and scripts.js respectively.\n\n\nAll custom Javascript code should be wrapped inside jquery document.ready function.\n\n\n\n\nImages\n\n\n\n\nWe will have three types of images i.e. 1x, 2x and 3x. Retina.js will be used to dynamically select the appropriate type for a screen.\n\n\nUse sprites and font icons whenever possible.", 
             "title": "Including CSS, JavaScript files and Images (Not for Emails)"
         }, 
         {
-            "location": "/guidelines/hubspot/External Files/#including-css-javascript-files-and-images-not-for-emails", 
+            "location": "/guidelines/hubspot/External-Files/#including-css-javascript-files-and-images-not-for-emails", 
             "text": "", 
             "title": "Including CSS, JavaScript files and Images (Not for Emails)"
         }, 
         {
-            "location": "/guidelines/hubspot/External Files/#css-and-javascript-files", 
+            "location": "/guidelines/hubspot/External-Files/#css-and-javascript-files", 
             "text": "All JavaScript files will only be included in the footer.  All CSS files will only be included in the header.  No inline CSS and JavaScript is allowed. This will keep the code cleaner and manageable.  Any third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.  Where possible, create one respective file for all custom CSS and Javascript code i.e. styles.css and scripts.js respectively.  All custom Javascript code should be wrapped inside jquery document.ready function.", 
             "title": "CSS and JavaScript files"
         }, 
         {
-            "location": "/guidelines/hubspot/External Files/#images", 
+            "location": "/guidelines/hubspot/External-Files/#images", 
             "text": "We will have three types of images i.e. 1x, 2x and 3x. Retina.js will be used to dynamically select the appropriate type for a screen.  Use sprites and font icons whenever possible.", 
             "title": "Images"
         }, 
@@ -101,154 +136,154 @@
             "title": "Forms"
         }, 
         {
-            "location": "/guidelines/hubspot/Page Load Time/", 
-            "text": "Page Load Time\n\n\nThere is not much we can do on server side for improving page load times but here is what we should do on the client side:\n\n\n\n\nAdd Javascript files in footer only and CSS files in header only.\n\n\nAny third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.\n\n\nUse font icons where possible.\n\n\nUse sprites and low res images.\n\n\nMake sure only needed CSS and Javascript is loaded on the page.\n\n\nMake sure to load files on the page from CDNs as they have better caching mechanism. This will also ensure files are loaded from different domains in practice.", 
-            "title": "Page Load Time"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Page Load Time/#page-load-time", 
-            "text": "There is not much we can do on server side for improving page load times but here is what we should do on the client side:   Add Javascript files in footer only and CSS files in header only.  Any third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.  Use font icons where possible.  Use sprites and low res images.  Make sure only needed CSS and Javascript is loaded on the page.  Make sure to load files on the page from CDNs as they have better caching mechanism. This will also ensure files are loaded from different domains in practice.", 
-            "title": "Page Load Time"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Quality Assurance/", 
-            "text": "Quality Assurance\n\n\nMake sure the pages are tested properly before delivering. \n\n\nAutomated Testing\n\n\nWe will use Selenium for testing form submissions, links and interfaces. Please note that selenium testing will be rolled out in phases.\n\n\nForm Submission\n\n\nForm validations, post form submissions should be validated using Selenium.\n\n\nAnchors and links\n\n\nWe will use selenium or any other platform for testing all links on the pages. The target is that all links land on the correct page and there are no 404s.\n\n\nUser Interface\n\n\nAll of the user interface cannot be tested automatically; only the area above the fold can be validated using image comparison tools. \n\n\nManual Testing\n\n\nThe user interface needs to be tested on all major browsers and devices as per \nthis\n testcase suite.\n\n\nThe parts that are compared using automated tools, needs to be validated as well.\n\n\nThe automated testing can have potential errors initially, its better to test all things manually as well just to ensure automated testing is up to mark.", 
-            "title": "Quality Assurance"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Quality Assurance/#quality-assurance", 
-            "text": "Make sure the pages are tested properly before delivering.", 
-            "title": "Quality Assurance"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Quality Assurance/#automated-testing", 
-            "text": "We will use Selenium for testing form submissions, links and interfaces. Please note that selenium testing will be rolled out in phases.", 
-            "title": "Automated Testing"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Quality Assurance/#form-submission", 
-            "text": "Form validations, post form submissions should be validated using Selenium.", 
-            "title": "Form Submission"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Quality Assurance/#anchors-and-links", 
-            "text": "We will use selenium or any other platform for testing all links on the pages. The target is that all links land on the correct page and there are no 404s.", 
-            "title": "Anchors and links"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Quality Assurance/#user-interface", 
-            "text": "All of the user interface cannot be tested automatically; only the area above the fold can be validated using image comparison tools.", 
-            "title": "User Interface"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Quality Assurance/#manual-testing", 
-            "text": "The user interface needs to be tested on all major browsers and devices as per  this  testcase suite.  The parts that are compared using automated tools, needs to be validated as well.  The automated testing can have potential errors initially, its better to test all things manually as well just to ensure automated testing is up to mark.", 
-            "title": "Manual Testing"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Staging Environment/", 
-            "text": "Staging Environment\n\n\nWebsite and Landing Pages\n\n\nAll the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration.\n\n\nBlogs\n\n\nStaging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.\n\n\nmeta name=\"robots\" content=\"noindex\"\n\n\nAlso make sure you select a demo domain for all staging blogs.", 
-            "title": "Staging Environment"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Staging Environment/#staging-environment", 
-            "text": "", 
-            "title": "Staging Environment"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Staging Environment/#website-and-landing-pages", 
-            "text": "All the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration.", 
-            "title": "Website and Landing Pages"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Staging Environment/#blogs", 
-            "text": "Staging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.  meta name=\"robots\" content=\"noindex\"  Also make sure you select a demo domain for all staging blogs.", 
-            "title": "Blogs"
-        }, 
-        {
-            "location": "/guidelines/hubspot/images/", 
+            "location": "/guidelines/hubspot/Images/", 
             "text": "Mockups and Images\n\n\nMockups\n\n\nProviding a mockup for every screen resolution is not possible so we have stream lined the process. \n\n\nA ~375px mockup is needed for Phones.\nA ~960px is needed for Tablets Landscape.\nA ~ 1440px is need for Medium Resolution Desktops.\n(Optional) A ~1920px is needed for High Resolution Desktops.\n\n\nImages and Logos\n\n\nDifferent screen densities require different size images e.g. 1x, 2x and 3x. It is preferable to provide all sizes of images. We will use \nRetina.js\n to dynamically display images based on screen densities. \n\n\nThis approach won\u2019t work on emails and we expect you to give us 2x images for emails.", 
             "title": "Mockups and Images"
         }, 
         {
-            "location": "/guidelines/hubspot/images/#mockups-and-images", 
+            "location": "/guidelines/hubspot/Images/#mockups-and-images", 
             "text": "", 
             "title": "Mockups and Images"
         }, 
         {
-            "location": "/guidelines/hubspot/images/#mockups", 
+            "location": "/guidelines/hubspot/Images/#mockups", 
             "text": "Providing a mockup for every screen resolution is not possible so we have stream lined the process.   A ~375px mockup is needed for Phones.\nA ~960px is needed for Tablets Landscape.\nA ~ 1440px is need for Medium Resolution Desktops.\n(Optional) A ~1920px is needed for High Resolution Desktops.", 
             "title": "Mockups"
         }, 
         {
-            "location": "/guidelines/hubspot/images/#images-and-logos", 
+            "location": "/guidelines/hubspot/Images/#images-and-logos", 
             "text": "Different screen densities require different size images e.g. 1x, 2x and 3x. It is preferable to provide all sizes of images. We will use  Retina.js  to dynamically display images based on screen densities.   This approach won\u2019t work on emails and we expect you to give us 2x images for emails.", 
             "title": "Images and Logos"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/", 
+            "location": "/guidelines/hubspot/Organizing/", 
             "text": "Organizing Design Manager and File Manager\n\n\nProblem/Situation\n\n\nAt the moment our templates, modules, code files and other static assets are arranged in an unstructured way. There is apparently no organization in place! Every time a new page design request is received, a template is being started from scratch (although leveraging the existing modules and code where possible). At the end of day we have a hard time figuring out what template is being used and which one is not used any more.\n\n\nThe idea is to classify all templates, code files and static assets in an intuitive way.\n\n\nKey Guidelines\n\n\n\n\nAvoid special characters where possible. \n\n\nKeep the names and labels concise.  They shouldn\u2019t be more than 25 characters.\n\n\nA record retention strategy needs to be in place, we will talk about it in a bit.\n\n\nUse relevant date information in names and labels where possible, e.g. a folder that contains all the template built in January 2017 should have following name i.e. 201701Templates. Using reverse order date will arrange the list in chronological order (See Figure 1, Figure2).\n\n\nUse short forms and abbreviations where possible for example a thank you page template can be called Template_TY.\n\n\nThe time unit for classifying stuff is a month e.g March 2018.\n\n\n\n\nNaming Folders\n\n\nTemplates and Coded files\nAll the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.\n\n\nFile Manager\n\n\nBased on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home \n Image \n 201712 (For all images used in home page in 201712). See Figure 3.\n\n\n\n\nFigure 1\n\n\n\n\nFigure 2\n\n\n\n\nFigure 3\n\n\nNaming Templates\n\n\nNaming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a \u201c\nTemplate\n\u201d and append it with a \u201c_Live\u201d in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.\nSome examples: \n1.  A template for a live blog will be called 201812_Template_Blog_Live.\n2.  A template for a development request demo page will be called 20181112_Template_RequestDemo.\n\n\nWhenever a new template is live make sure you remove \"_Live\" from any previous live template. At a given time only one template can have \"_Live\" flag in its name.\n\n\nIf a template has been revised more than once in a month, put day as well in the first part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.\n\n\nNaming Coded Files\n\n\nAll coded files should have a lower case name. For example CSS and Javascript files specific to the Blog can be called blog.css and blog.js respectively. The idea is to use lower case name for all files, which the end user should not play around with, such as the coded files.\n\n\nNaming Modules\n\n\nModules cannot be classified into templates. There are two types of modules though i.e Custom and Global.\n\n\nCustom Modules\n\n\nThe naming convention for a custom module should be intuitive and should reflect the feature it is developed for and the reverse timestamp. For example if a module is build for a carousel in Feb 2018, it should be called 201802_Custom_Carousel. Using reverse timestamp will put it in a chronological order.\n\n\nGlobal Modules\n\n\nThe naming convention for global modules will remain similar to custom modules. Just replace Custom with Global e.g. a global module for header would be called 201802_Global_Header.\n\n\nNaming Module Fields\n\n\nA module field should be named in following order: Purpose Type e.g. if a text field is used for displaying headline in a hero area module, it should be called Headline Text. Let HubSpot engine take care of internal naming.\n\n\nNaming Pages\n\n\nNaming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live. \n\n\nThe internal name and title of the page should be identical.", 
             "title": "Organizing Design Manager and File Manager"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#organizing-design-manager-and-file-manager", 
+            "location": "/guidelines/hubspot/Organizing/#organizing-design-manager-and-file-manager", 
             "text": "", 
             "title": "Organizing Design Manager and File Manager"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#problemsituation", 
+            "location": "/guidelines/hubspot/Organizing/#problemsituation", 
             "text": "At the moment our templates, modules, code files and other static assets are arranged in an unstructured way. There is apparently no organization in place! Every time a new page design request is received, a template is being started from scratch (although leveraging the existing modules and code where possible). At the end of day we have a hard time figuring out what template is being used and which one is not used any more.  The idea is to classify all templates, code files and static assets in an intuitive way.", 
             "title": "Problem/Situation"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#key-guidelines", 
+            "location": "/guidelines/hubspot/Organizing/#key-guidelines", 
             "text": "Avoid special characters where possible.   Keep the names and labels concise.  They shouldn\u2019t be more than 25 characters.  A record retention strategy needs to be in place, we will talk about it in a bit.  Use relevant date information in names and labels where possible, e.g. a folder that contains all the template built in January 2017 should have following name i.e. 201701Templates. Using reverse order date will arrange the list in chronological order (See Figure 1, Figure2).  Use short forms and abbreviations where possible for example a thank you page template can be called Template_TY.  The time unit for classifying stuff is a month e.g March 2018.", 
             "title": "Key Guidelines"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#naming-folders", 
+            "location": "/guidelines/hubspot/Organizing/#naming-folders", 
             "text": "Templates and Coded files\nAll the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.", 
             "title": "Naming Folders"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#file-manager", 
+            "location": "/guidelines/hubspot/Organizing/#file-manager", 
             "text": "Based on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home   Image   201712 (For all images used in home page in 201712). See Figure 3.   Figure 1   Figure 2   Figure 3", 
             "title": "File Manager"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#naming-templates", 
+            "location": "/guidelines/hubspot/Organizing/#naming-templates", 
             "text": "Naming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a \u201c Template \u201d and append it with a \u201c_Live\u201d in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.\nSome examples: \n1.  A template for a live blog will be called 201812_Template_Blog_Live.\n2.  A template for a development request demo page will be called 20181112_Template_RequestDemo.  Whenever a new template is live make sure you remove \"_Live\" from any previous live template. At a given time only one template can have \"_Live\" flag in its name.  If a template has been revised more than once in a month, put day as well in the first part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.", 
             "title": "Naming Templates"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#naming-coded-files", 
+            "location": "/guidelines/hubspot/Organizing/#naming-coded-files", 
             "text": "All coded files should have a lower case name. For example CSS and Javascript files specific to the Blog can be called blog.css and blog.js respectively. The idea is to use lower case name for all files, which the end user should not play around with, such as the coded files.", 
             "title": "Naming Coded Files"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#naming-modules", 
+            "location": "/guidelines/hubspot/Organizing/#naming-modules", 
             "text": "Modules cannot be classified into templates. There are two types of modules though i.e Custom and Global.", 
             "title": "Naming Modules"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#custom-modules", 
+            "location": "/guidelines/hubspot/Organizing/#custom-modules", 
             "text": "The naming convention for a custom module should be intuitive and should reflect the feature it is developed for and the reverse timestamp. For example if a module is build for a carousel in Feb 2018, it should be called 201802_Custom_Carousel. Using reverse timestamp will put it in a chronological order.", 
             "title": "Custom Modules"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#global-modules", 
+            "location": "/guidelines/hubspot/Organizing/#global-modules", 
             "text": "The naming convention for global modules will remain similar to custom modules. Just replace Custom with Global e.g. a global module for header would be called 201802_Global_Header.", 
             "title": "Global Modules"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#naming-module-fields", 
+            "location": "/guidelines/hubspot/Organizing/#naming-module-fields", 
             "text": "A module field should be named in following order: Purpose Type e.g. if a text field is used for displaying headline in a hero area module, it should be called Headline Text. Let HubSpot engine take care of internal naming.", 
             "title": "Naming Module Fields"
         }, 
         {
-            "location": "/guidelines/hubspot/organizing/#naming-pages", 
+            "location": "/guidelines/hubspot/Organizing/#naming-pages", 
             "text": "Naming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live.   The internal name and title of the page should be identical.", 
             "title": "Naming Pages"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Page-Load-Time/", 
+            "text": "Page Load Time\n\n\nThere is not much we can do on server side for improving page load times but here is what we should do on the client side:\n\n\n\n\nAdd Javascript files in footer only and CSS files in header only.\n\n\nAny third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.\n\n\nUse font icons where possible.\n\n\nUse sprites and low res images.\n\n\nMake sure only needed CSS and Javascript is loaded on the page.\n\n\nMake sure to load files on the page from CDNs as they have better caching mechanism. This will also ensure files are loaded from different domains in practice.", 
+            "title": "Page Load Time"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Page-Load-Time/#page-load-time", 
+            "text": "There is not much we can do on server side for improving page load times but here is what we should do on the client side:   Add Javascript files in footer only and CSS files in header only.  Any third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.  Use font icons where possible.  Use sprites and low res images.  Make sure only needed CSS and Javascript is loaded on the page.  Make sure to load files on the page from CDNs as they have better caching mechanism. This will also ensure files are loaded from different domains in practice.", 
+            "title": "Page Load Time"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Quality-Assurance/", 
+            "text": "Quality Assurance\n\n\nMake sure the pages are tested properly before delivering. \n\n\nAutomated Testing\n\n\nWe will use Selenium for testing form submissions, links and interfaces. Please note that selenium testing will be rolled out in phases.\n\n\nForm Submission\n\n\nForm validations, post form submissions should be validated using Selenium.\n\n\nAnchors and links\n\n\nWe will use selenium or any other platform for testing all links on the pages. The target is that all links land on the correct page and there are no 404s.\n\n\nUser Interface\n\n\nAll of the user interface cannot be tested automatically; only the area above the fold can be validated using image comparison tools. \n\n\nManual Testing\n\n\nThe user interface needs to be tested on all major browsers and devices as per \nthis\n testcase suite.\n\n\nThe parts that are compared using automated tools, needs to be validated as well.\n\n\nThe automated testing can have potential errors initially, its better to test all things manually as well just to ensure automated testing is up to mark.", 
+            "title": "Quality Assurance"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Quality-Assurance/#quality-assurance", 
+            "text": "Make sure the pages are tested properly before delivering.", 
+            "title": "Quality Assurance"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Quality-Assurance/#automated-testing", 
+            "text": "We will use Selenium for testing form submissions, links and interfaces. Please note that selenium testing will be rolled out in phases.", 
+            "title": "Automated Testing"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Quality-Assurance/#form-submission", 
+            "text": "Form validations, post form submissions should be validated using Selenium.", 
+            "title": "Form Submission"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Quality-Assurance/#anchors-and-links", 
+            "text": "We will use selenium or any other platform for testing all links on the pages. The target is that all links land on the correct page and there are no 404s.", 
+            "title": "Anchors and links"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Quality-Assurance/#user-interface", 
+            "text": "All of the user interface cannot be tested automatically; only the area above the fold can be validated using image comparison tools.", 
+            "title": "User Interface"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Quality-Assurance/#manual-testing", 
+            "text": "The user interface needs to be tested on all major browsers and devices as per  this  testcase suite.  The parts that are compared using automated tools, needs to be validated as well.  The automated testing can have potential errors initially, its better to test all things manually as well just to ensure automated testing is up to mark.", 
+            "title": "Manual Testing"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Staging-Environment/", 
+            "text": "Staging Environment\n\n\nWebsite and Landing Pages\n\n\nAll the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration.\n\n\nBlogs\n\n\nStaging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.\n\n\nmeta name=\"robots\" content=\"noindex\"\n\n\nAlso make sure you select a demo domain for all staging blogs.", 
+            "title": "Staging Environment"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Staging-Environment/#staging-environment", 
+            "text": "", 
+            "title": "Staging Environment"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Staging-Environment/#website-and-landing-pages", 
+            "text": "All the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration.", 
+            "title": "Website and Landing Pages"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Staging-Environment/#blogs", 
+            "text": "Staging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.  meta name=\"robots\" content=\"noindex\"  Also make sure you select a demo domain for all staging blogs.", 
+            "title": "Blogs"
         }
     ]
 }

@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>Page Load Time - Tezro Solutions</title>
+        <title>Developing Emails - Tezro Solutions</title>
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../../../css/base.css" rel="stylesheet">
@@ -54,7 +54,7 @@
                         <ul class="dropdown-menu">
                             
 <li >
-    <a href="../../../blogs/">Home</a>
+    <a href="../../../blogs/">ReactJS</a>
 </li>
                         </ul>
                     </li>
@@ -67,43 +67,43 @@
     <ul class="dropdown-menu">
             
 <li >
-    <a href="../Archiving Strategy/">Archiving Strategy</a>
+    <a href="../Archiving-Strategy/">Archiving Strategy</a>
+</li>
+            
+<li class="active">
+    <a href="./">Developing Emails</a>
 </li>
             
 <li >
-    <a href="../Developing Emails/">Developing Emails</a>
+    <a href="../Developing-Modules/">Developing Modules</a>
 </li>
             
 <li >
-    <a href="../Developing Modules/">Developing Modules</a>
-</li>
-            
-<li >
-    <a href="../External Files/">Including CSS, JavaScript files and Images (Not for Emails)</a>
+    <a href="../External-Files/">External Files</a>
 </li>
             
 <li >
     <a href="../Forms/">Forms</a>
 </li>
             
-<li class="active">
-    <a href="./">Page Load Time</a>
+<li >
+    <a href="../Images/">Images</a>
 </li>
             
 <li >
-    <a href="../Quality Assurance/">Quality Assurance</a>
+    <a href="../Organizing/">Organizing</a>
 </li>
             
 <li >
-    <a href="../Staging Environment/">Staging Environment</a>
+    <a href="../Page-Load-Time/">Page Load Time</a>
 </li>
             
 <li >
-    <a href="../images/">Images</a>
+    <a href="../Quality-Assurance/">Quality Assurance</a>
 </li>
             
 <li >
-    <a href="../organizing/">Organizing</a>
+    <a href="../Staging-Environment/">Staging Environment</a>
 </li>
     </ul>
   </li>
@@ -118,12 +118,12 @@
                     </a>
                 </li>
                     <li >
-                        <a rel="next" href="../Forms/">
+                        <a rel="next" href="../Archiving-Strategy/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../Quality Assurance/">
+                        <a rel="prev" href="../Developing-Modules/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -135,21 +135,29 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#page-load-time">Page Load Time</a></li>
+        <li class="main active"><a href="#developing-emails">Developing Emails</a></li>
+            <li><a href="#background">Background</a></li>
+            <li><a href="#setting-expectations">Setting Expectations</a></li>
+            <li><a href="#development-best-practices">Development Best Practices</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="page-load-time">Page Load Time</h1>
-<p>There is not much we can do on server side for improving page load times but here is what we should do on the client side:</p>
+<h1 id="developing-emails">Developing Emails</h1>
+<h3 id="background">Background</h3>
+<p>There are two ways to create an email template in HubSpot using Design Manager or using Coded files. From a compatibility perspective we the latter approach is preferred, as it gives us more control over the template code. If due to some reasons customer prefers to build template using Design Manager, they should compromise on potential compatibility problems.</p>
+<h3 id="setting-expectations">Setting Expectations</h3>
 <ol>
-<li>Add Javascript files in footer only and CSS files in header only.</li>
-<li>Any third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.</li>
-<li>Use font icons where possible.</li>
-<li>Use sprites and low res images.</li>
-<li>Make sure only needed CSS and Javascript is loaded on the page.</li>
-<li>Make sure to load files on the page from CDNs as they have better caching mechanism. This will also ensure files are loaded from different domains in practice.</li>
-</ol></div>
+<li>The email templates we develop are compatible with 33+ desktop and mobile email clients.</li>
+<li>We use HubSpot built in Litmus testing for validating email’s design in email clients.</li>
+<li>We do real device testing for only important email clients.</li>
+<li>Gmail mobile email client is known to have problems when displaying emails. We can develop an email template that may display reasonably there but it will have problems on other email clients. We normally shrink emails there.</li>
+</ol>
+<h3 id="development-best-practices">Development Best Practices</h3>
+<ol>
+<li>Each section in the email design should be translated as a module in HubSpot email template.</li>
+</ol>
+<p>More to be added later…</p></div>
         </div>
 
         <footer class="col-md-12">

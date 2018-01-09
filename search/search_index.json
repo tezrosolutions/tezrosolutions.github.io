@@ -132,33 +132,13 @@
         }, 
         {
             "location": "/guidelines/hubspot/Forms/", 
-            "text": "Forms\n\n\nWe are assuming that the digital marketing team will manage the forms. If a change request also entails a form, the form to be used should be provided to the development team along with the requirements.", 
+            "text": "Forms\n\n\nWe are assuming that the digital marketing team will manage the forms. If a change request also entails a form, the form to be used should be provided to the development team along with the requirements. Click the image below to watch the video about creating forms in HubSpot.", 
             "title": "Forms"
         }, 
         {
             "location": "/guidelines/hubspot/Forms/#forms", 
-            "text": "We are assuming that the digital marketing team will manage the forms. If a change request also entails a form, the form to be used should be provided to the development team along with the requirements.", 
+            "text": "We are assuming that the digital marketing team will manage the forms. If a change request also entails a form, the form to be used should be provided to the development team along with the requirements. Click the image below to watch the video about creating forms in HubSpot.", 
             "title": "Forms"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Images/", 
-            "text": "Mockups and Images\n\n\nMockups\n\n\nProviding a mockup for every screen resolution is not possible so we have stream lined the process. \n\n\nA ~375px mockup is needed for Phones.\nA ~960px is needed for Tablets Landscape.\nA ~ 1440px is need for Medium Resolution Desktops.\n(Optional) A ~1920px is needed for High Resolution Desktops.\n\n\nImages and Logos\n\n\nDifferent screen densities require different size images e.g. 1x, 2x and 3x. It is preferable to provide all sizes of images. We will use \nRetina.js\n to dynamically display images based on screen densities. \n\n\nThis approach won\u2019t work on emails and we expect you to give us 2x images for emails.", 
-            "title": "Mockups and Images"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Images/#mockups-and-images", 
-            "text": "", 
-            "title": "Mockups and Images"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Images/#mockups", 
-            "text": "Providing a mockup for every screen resolution is not possible so we have stream lined the process.   A ~375px mockup is needed for Phones.\nA ~960px is needed for Tablets Landscape.\nA ~ 1440px is need for Medium Resolution Desktops.\n(Optional) A ~1920px is needed for High Resolution Desktops.", 
-            "title": "Mockups"
-        }, 
-        {
-            "location": "/guidelines/hubspot/Images/#images-and-logos", 
-            "text": "Different screen densities require different size images e.g. 1x, 2x and 3x. It is preferable to provide all sizes of images. We will use  Retina.js  to dynamically display images based on screen densities.   This approach won\u2019t work on emails and we expect you to give us 2x images for emails.", 
-            "title": "Images and Logos"
         }, 
         {
             "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/", 
@@ -289,6 +269,26 @@
             "location": "/guidelines/hubspot/Staging-Environment/#blogs", 
             "text": "Staging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.  meta name=\"robots\" content=\"noindex\"  Also make sure you select a demo domain for all staging blogs.", 
             "title": "Blogs"
+        }, 
+        {
+            "location": "/guidelines/hubspot/images/", 
+            "text": "Mockups and Images\n\n\nMockups\n\n\nProviding a mockup for every screen resolution is not possible so we have stream lined the process. \n\n\nA ~375px mockup is needed for Phones.\nA ~960px is needed for Tablets Landscape.\nA ~ 1440px is need for Medium Resolution Desktops.\n(Optional) A ~1920px is needed for High Resolution Desktops.\n\n\nImages and Logos\n\n\nDifferent screen densities require different size images e.g. 1x, 2x and 3x. It is preferable to provide all sizes of images. We will use \nRetina.js\n to dynamically display images based on screen densities. \n\n\nThis approach won\u2019t work on emails and we expect you to give us 2x images for emails.", 
+            "title": "Mockups and Images"
+        }, 
+        {
+            "location": "/guidelines/hubspot/images/#mockups-and-images", 
+            "text": "", 
+            "title": "Mockups and Images"
+        }, 
+        {
+            "location": "/guidelines/hubspot/images/#mockups", 
+            "text": "Providing a mockup for every screen resolution is not possible so we have stream lined the process.   A ~375px mockup is needed for Phones.\nA ~960px is needed for Tablets Landscape.\nA ~ 1440px is need for Medium Resolution Desktops.\n(Optional) A ~1920px is needed for High Resolution Desktops.", 
+            "title": "Mockups"
+        }, 
+        {
+            "location": "/guidelines/hubspot/images/#images-and-logos", 
+            "text": "Different screen densities require different size images e.g. 1x, 2x and 3x. It is preferable to provide all sizes of images. We will use  Retina.js  to dynamically display images based on screen densities.   This approach won\u2019t work on emails and we expect you to give us 2x images for emails.", 
+            "title": "Images and Logos"
         }, 
         {
             "location": "/guidelines/hubspot/", 

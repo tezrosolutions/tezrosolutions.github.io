@@ -261,26 +261,6 @@
             "title": "Manual Testing"
         }, 
         {
-            "location": "/guidelines/hubspot/SEO/", 
-            "text": "SEO\n\n\nSearch Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed. \n\n\nNormally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 4.\n\n\n\nFigure 4\n\n\nUsing h1 ad h2 tags\n\n\nSearch engines prioritize elements on the page using special algorithms. A search engine would generally give significance to elements such as h1, h2 tags. That\u2019s why make sure you put the page tagline in h1 tag and section titles in h2 tag.\n\n\nCanonical URLs\n\n\nCanonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values. \n\n\nAn easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 5.\n\n\n\nFigure 5", 
-            "title": "SEO"
-        }, 
-        {
-            "location": "/guidelines/hubspot/SEO/#seo", 
-            "text": "Search Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed.   Normally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 4.  \nFigure 4", 
-            "title": "SEO"
-        }, 
-        {
-            "location": "/guidelines/hubspot/SEO/#using-h1-ad-h2-tags", 
-            "text": "Search engines prioritize elements on the page using special algorithms. A search engine would generally give significance to elements such as h1, h2 tags. That\u2019s why make sure you put the page tagline in h1 tag and section titles in h2 tag.", 
-            "title": "Using h1 ad h2 tags"
-        }, 
-        {
-            "location": "/guidelines/hubspot/SEO/#canonical-urls", 
-            "text": "Canonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values.   An easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 5.  \nFigure 5", 
-            "title": "Canonical URLs"
-        }, 
-        {
             "location": "/guidelines/hubspot/Staging-Environment/", 
             "text": "Staging Environment\n\n\nWebsite and Landing Pages\n\n\nAll the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration. \n\n\nIf a new page is being developed, even then make sure that it follows the staging workflow.\n\n\nBlogs\n\n\nStaging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.\n\n\nmeta name=\"robots\" content=\"noindex\"\n\n\nAlso make sure you select a demo domain for all staging blogs. Delete the test blog when it is no longer needed.", 
             "title": "Staging Environment"
@@ -339,6 +319,26 @@
             "location": "/guidelines/hubspot/#hubspot-guidelines", 
             "text": "This section covers the best practices and guidelines for working on HubSpot.  Organizing Design Manager and File Manager  Forms  Mockups and Images  Quality Assurance  Including CSS, JavaScript files and Images (Not for Emails)  Page Load Time  Developing Emails  Developing Modules  Staging Environment  Archiving Strategy  SEO  Checklist for client when assigning a task", 
             "title": "HubSpot Guidelines"
+        }, 
+        {
+            "location": "/guidelines/hubspot/seo/", 
+            "text": "SEO\n\n\nSearch Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed. \n\n\nNormally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 4.\n\n\n\nFigure 4\n\n\nUsing h1 ad h2 tags\n\n\nSearch engines prioritize elements on the page using special algorithms. A search engine would generally give significance to elements such as h1, h2 tags. That\u2019s why make sure you put the page tagline in h1 tag and section titles in h2 tag.\n\n\nCanonical URLs\n\n\nCanonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values. \n\n\nAn easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 5.\n\n\n\nFigure 5", 
+            "title": "SEO"
+        }, 
+        {
+            "location": "/guidelines/hubspot/seo/#seo", 
+            "text": "Search Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed.   Normally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 4.  \nFigure 4", 
+            "title": "SEO"
+        }, 
+        {
+            "location": "/guidelines/hubspot/seo/#using-h1-ad-h2-tags", 
+            "text": "Search engines prioritize elements on the page using special algorithms. A search engine would generally give significance to elements such as h1, h2 tags. That\u2019s why make sure you put the page tagline in h1 tag and section titles in h2 tag.", 
+            "title": "Using h1 ad h2 tags"
+        }, 
+        {
+            "location": "/guidelines/hubspot/seo/#canonical-urls", 
+            "text": "Canonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values.   An easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 5.  \nFigure 5", 
+            "title": "Canonical URLs"
         }
     ]
 }

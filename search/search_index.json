@@ -77,7 +77,7 @@
         }, 
         {
             "location": "/guidelines/hubspot/Developing-Emails/", 
-            "text": "Developing Emails\n\n\nBackground\n\n\nThere are two ways to create an email template in HubSpot using Design Manager or using Coded files. From a compatibility perspective we the latter approach is preferred, as it gives us more control over the template code. If due to some reasons customer prefers to build template using Design Manager, they should compromise on potential compatibility problems.\n\n\nSetting Expectations\n\n\n\n\nThe email templates we develop are compatible with 33+ desktop and mobile email clients.\n\n\nWe use HubSpot built in Litmus testing for validating email\u2019s design in email clients.\n\n\nWe do real device testing for only important email clients.\n\n\nGmail mobile email client is known to have problems when displaying emails. We can develop an email template that may display reasonably there but it will have problems on other email clients. We normally shrink emails there.\n\n\n\n\nDevelopment Best Practices\n\n\n\n\nEach section in the email design should be translated as a module in HubSpot email template.\n\n\n\n\nMore to be added later\u2026", 
+            "text": "Developing Emails\n\n\nBackground\n\n\nThere are two ways to create an email template in HubSpot using Design Manager or using Coded files. From a compatibility perspective we the latter approach is preferred, as it gives us more control over the template code. If due to some reasons customer prefers to build template using Design Manager, they should compromise on potential compatibility problems.\n\n\nSetting Expectations\n\n\n\n\nThe email templates we develop are compatible with 33+ desktop and mobile email clients.\n\n\nWe use HubSpot built in Litmus testing for validating email\u2019s design in email clients.\n\n\nWe do real device testing for only important email clients.\n\n\nGmail mobile email client is known to have problems when displaying emails. We can develop an email template that may display reasonably there but it will have problems on other email clients. We normally shrink emails there.\n\n\n\n\nDevelopment Best Practices\n\n\n\n\nEach section in the email design should be translated as a module in HubSpot email template.\n\n\n\n\nMore to be added later.", 
             "title": "Developing Emails"
         }, 
         {
@@ -97,7 +97,7 @@
         }, 
         {
             "location": "/guidelines/hubspot/Developing-Emails/#development-best-practices", 
-            "text": "Each section in the email design should be translated as a module in HubSpot email template.   More to be added later\u2026", 
+            "text": "Each section in the email design should be translated as a module in HubSpot email template.   More to be added later.", 
             "title": "Development Best Practices"
         }, 
         {
@@ -112,7 +112,7 @@
         }, 
         {
             "location": "/guidelines/hubspot/External-Files/", 
-            "text": "Including CSS, JavaScript files and Images (Not for Emails)\n\n\nCSS and JavaScript files\n\n\n\n\nAll JavaScript files will only be included in the footer.\n\n\nAll CSS files will only be included in the header.\n\n\nNo inline CSS and JavaScript is allowed. This will keep the code cleaner and manageable.\n\n\nAny third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.\n\n\nWhere possible, create one respective file for all custom CSS and Javascript code i.e. styles.css and scripts.js respectively.\n\n\nAll custom Javascript code should be wrapped inside jquery document.ready function.\n\n\n\n\nImages\n\n\n\n\nWe will have three types of images i.e. 1x, 2x and 3x. Retina.js will be used to dynamically select the appropriate type for a screen.\n\n\nUse sprites and font icons whenever possible.", 
+            "text": "Including CSS, JavaScript files and Images (Not for Emails)\n\n\nCSS and JavaScript files\n\n\n\n\nAll JavaScript files will only be included in the footer.\n\n\nAll CSS files will only be included in the header.\n\n\nNo inline CSS and JavaScript is allowed. This will keep the code cleaner and manageable.\n\n\nAny third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.\n\n\nWhere possible, create one respective file for all custom CSS and Javascript code i.e. styles.css and scripts.js respectively.\n\n\nAll custom JavaScript code should be wrapped inside jquery document.ready function.\n\n\n\n\nImages\n\n\n\n\nWe will have three types of images i.e. 1x, 2x and 3x. Retina.js will be used to dynamically select the appropriate type for a screen.\n\n\nUse sprites and font icons whenever possible.", 
             "title": "Including CSS, JavaScript files and Images (Not for Emails)"
         }, 
         {
@@ -122,7 +122,7 @@
         }, 
         {
             "location": "/guidelines/hubspot/External-Files/#css-and-javascript-files", 
-            "text": "All JavaScript files will only be included in the footer.  All CSS files will only be included in the header.  No inline CSS and JavaScript is allowed. This will keep the code cleaner and manageable.  Any third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.  Where possible, create one respective file for all custom CSS and Javascript code i.e. styles.css and scripts.js respectively.  All custom Javascript code should be wrapped inside jquery document.ready function.", 
+            "text": "All JavaScript files will only be included in the footer.  All CSS files will only be included in the header.  No inline CSS and JavaScript is allowed. This will keep the code cleaner and manageable.  Any third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.  Where possible, create one respective file for all custom CSS and Javascript code i.e. styles.css and scripts.js respectively.  All custom JavaScript code should be wrapped inside jquery document.ready function.", 
             "title": "CSS and JavaScript files"
         }, 
         {
@@ -142,7 +142,7 @@
         }, 
         {
             "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/", 
-            "text": "Organizing Design Manager and File Manager\n\n\nProblem/Situation\n\n\nAt the moment our templates, modules, code files and other static assets are arranged in an unstructured way. There is apparently no organization in place! Every time a new page design request is received, a template is being started from scratch (although leveraging the existing modules and code where possible). At the end of day we have a hard time figuring out what template is being used and which one is not used any more.\n\n\nThe idea is to classify all templates, code files and static assets in an intuitive way.\n\n\nKey Guidelines\n\n\n\n\nAvoid special characters where possible. \n\n\nKeep the names and labels concise.  They shouldn\u2019t be more than 25 characters.\n\n\nA record retention strategy needs to be in place, we will talk about it in a bit.\n\n\nUse relevant date information in names and labels where possible, e.g. a folder that contains all the template built in January 2017 should have following name i.e. 201701Templates. Using reverse order date will arrange the list in chronological order (See Figure 1, Figure2).\n\n\nUse short forms and abbreviations where possible for example a thank you page template can be called Template_TY.\n\n\nThe time unit for classifying stuff is a month e.g March 2018.\n\n\n\n\nNaming Folders\n\n\nTemplates and Coded files\nAll the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.\n\n\nFile Manager\n\n\nBased on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home \n Image \n 201712 (For all images used in home page in 201712). See Figure 3.\n\n\n\n\nFigure 1\n\n\n\n\nFigure 2\n\n\n\n\nFigure 3\n\n\nNaming Templates\n\n\nNaming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a \u201c\nTemplate\n\u201d and append it with a \u201c_Live\u201d in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.\nSome examples: \n1.  A template for a live blog will be called 201812_Template_Blog_Live.\n2.  A template for a development request demo page will be called 20181112_Template_RequestDemo.\n\n\nWhenever a new template is live make sure you remove \"_Live\" from any previous live template. At a given time only one template can have \"_Live\" flag in its name.\n\n\nIf a template has been revised more than once in a month, put day as well in the first part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.\n\n\nNaming Coded Files\n\n\nAll coded files should have a lower case name. For example CSS and Javascript files specific to the Blog can be called blog.css and blog.js respectively. The idea is to use lower case name for all files, which the end user should not play around with, such as the coded files.\n\n\nNaming Modules\n\n\nModules cannot be classified into templates. There are two types of modules though i.e Custom and Global.\n\n\nCustom Modules\n\n\nThe naming convention for a custom module should be intuitive and should reflect the feature it is developed for and the reverse timestamp. For example if a module is build for a carousel in Feb 2018, it should be called 201802_Custom_Carousel. Using reverse timestamp will put it in a chronological order.\n\n\nGlobal Modules\n\n\nThe naming convention for global modules will remain similar to custom modules. Just replace Custom with Global e.g. a global module for header would be called 201802_Global_Header.\n\n\nNaming Module Fields\n\n\nA module field should be named in following order: Purpose Type e.g. if a text field is used for displaying headline in a hero area module, it should be called Headline Text. Let HubSpot engine take care of internal naming.\n\n\nNaming Pages\n\n\nNaming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live. \n\n\nThe internal name and title of the page should be identical.", 
+            "text": "Organizing Design Manager and File Manager\n\n\nProblem/Situation\n\n\nAt the moment our templates, modules, code files and other static assets are arranged in an unstructured way. There is apparently no organization in place! Every time a new page design request is received, a template is being started from scratch (although leveraging the existing modules and code where possible). At the end of day we have a hard time figuring out what template is being used and which one is not used any more.\n\n\nThe idea is to classify all templates, code files and static assets in an intuitive way.\n\n\nKey Guidelines\n\n\n\n\nAvoid special characters where possible. \n\n\nKeep the names and labels concise.  They shouldn\u2019t be more than 25 characters.\n\n\nA record retention strategy needs to be in place, we will talk about it in a bit.\n\n\nUse relevant date information in names and labels where possible, e.g. a folder that contains all the template built in January 2017 should have following name i.e. 201701Templates. Using reverse order date will arrange the list in chronological order (See Figure 1, Figure2).\n\n\nUse short forms and abbreviations where possible for example a thank you page template can be called Template_TY.\n\n\nThe time unit for classifying stuff is a month e.g March 2018.\n\n\n\n\nNaming Folders\n\n\nTemplates and Coded files\n\n\nAll the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.\n\n\nFile Manager\n\n\nBased on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home \n Images \n 201712 (For all images used in home page in 201712). See Figure 3.\n\n\n\n\nFigure 1\n\n\n\n\nFigure 2\n\n\n\n\nFigure 3\n\n\nNaming Templates\n\n\nNaming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a \u201c\nTemplate\n\u201d and append it with a \u201c_Live\u201d in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.\nSome examples: \n1.  A template for a live blog will be called 201812_Template_Blog_Live.\n2.  A template for a development request demo page will be called 20181112_Template_RequestDemo.\n\n\nWhenever a new template is live make sure you remove \"_Live\" from any previous live template. At a given time only one template can have \"_Live\" flag in its name.\n\n\nIf a template has been revised more than once in a month, put day as well in the first part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.\n\n\nNaming Coded Files\n\n\nAll coded files should have a lower case name. For example CSS and Javascript files specific to the Blog can be called blog.css and blog.js respectively. The idea is to use lower case name for all files, which the end user should not play around with, such as the coded files.\n\n\nNaming Modules\n\n\nModules cannot be classified into templates. There are two types of modules though i.e Custom and Global.\n\n\nCustom Modules\n\n\nThe naming convention for a custom module should be intuitive and should reflect the feature it is developed for and the reverse timestamp. For example if a module is build for a carousel in Feb 2018, it should be called 201802_Custom_Carousel. Using reverse timestamp will put it in a chronological order.\n\n\nGlobal Modules\n\n\nThe naming convention for global modules will remain similar to custom modules. Just replace Custom with Global e.g. a global module for header would be called 201802_Global_Header.\n\n\nNaming Module Fields\n\n\nA module field should be named in following order: Purpose Type e.g. if a text field is used for displaying headline in a hero area module, it should be called Headline Text. Let HubSpot engine take care of internal naming.\n\n\nNaming Pages\n\n\nNaming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live. \n\n\nThe internal name and title of the page should be identical.\n\n\nNaming CTAs\n\n\nWe are expecting the digital marketing team to provide details of the CTAs i.e. its URL, its label and should it open the URL in a new browser tab.\n\n\nThe CTA\u2019s name will also include timestamp in reverse order and the label. For example if a CTA is for requesting a demo it should be named as  201801_Request_Demo.", 
             "title": "Organizing Design Manager and File Manager"
         }, 
         {
@@ -162,12 +162,17 @@
         }, 
         {
             "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-folders", 
-            "text": "Templates and Coded files\nAll the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.", 
+            "text": "", 
             "title": "Naming Folders"
         }, 
         {
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#templates-and-coded-files", 
+            "text": "All the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.", 
+            "title": "Templates and Coded files"
+        }, 
+        {
             "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#file-manager", 
-            "text": "Based on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home   Image   201712 (For all images used in home page in 201712). See Figure 3.   Figure 1   Figure 2   Figure 3", 
+            "text": "Based on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home   Images   201712 (For all images used in home page in 201712). See Figure 3.   Figure 1   Figure 2   Figure 3", 
             "title": "File Manager"
         }, 
         {
@@ -204,6 +209,11 @@
             "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-pages", 
             "text": "Naming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live.   The internal name and title of the page should be identical.", 
             "title": "Naming Pages"
+        }, 
+        {
+            "location": "/guidelines/hubspot/Organizing-Design-Manager-and-File-Manager/#naming-ctas", 
+            "text": "We are expecting the digital marketing team to provide details of the CTAs i.e. its URL, its label and should it open the URL in a new browser tab.  The CTA\u2019s name will also include timestamp in reverse order and the label. For example if a CTA is for requesting a demo it should be named as  201801_Request_Demo.", 
+            "title": "Naming CTAs"
         }, 
         {
             "location": "/guidelines/hubspot/Page-Load-Time/", 
@@ -251,8 +261,28 @@
             "title": "Manual Testing"
         }, 
         {
+            "location": "/guidelines/hubspot/SEO/", 
+            "text": "SEO\n\n\nSearch Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed. \n\n\nNormally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 4.\n\n\n\nFigure 4\n\n\nUsing h1 ad h2 tags\n\n\nSearch engines prioritize elements on the page using special algorithms. A search engine would generally give significance to elements such as h1, h2 tags. That\u2019s why make sure you put the page tagline in h1 tag and section titles in h2 tag.\n\n\nCanonical URLs\n\n\nCanonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values. \n\n\nAn easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 5.\n\n\n\nFigure 5", 
+            "title": "SEO"
+        }, 
+        {
+            "location": "/guidelines/hubspot/SEO/#seo", 
+            "text": "Search Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed.   Normally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 4.  \nFigure 4", 
+            "title": "SEO"
+        }, 
+        {
+            "location": "/guidelines/hubspot/SEO/#using-h1-ad-h2-tags", 
+            "text": "Search engines prioritize elements on the page using special algorithms. A search engine would generally give significance to elements such as h1, h2 tags. That\u2019s why make sure you put the page tagline in h1 tag and section titles in h2 tag.", 
+            "title": "Using h1 ad h2 tags"
+        }, 
+        {
+            "location": "/guidelines/hubspot/SEO/#canonical-urls", 
+            "text": "Canonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values.   An easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 5.  \nFigure 5", 
+            "title": "Canonical URLs"
+        }, 
+        {
             "location": "/guidelines/hubspot/Staging-Environment/", 
-            "text": "Staging Environment\n\n\nWebsite and Landing Pages\n\n\nAll the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration.\n\n\nBlogs\n\n\nStaging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.\n\n\nmeta name=\"robots\" content=\"noindex\"\n\n\nAlso make sure you select a demo domain for all staging blogs.", 
+            "text": "Staging Environment\n\n\nWebsite and Landing Pages\n\n\nAll the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration. \n\n\nIf a new page is being developed, even then make sure that it follows the staging workflow.\n\n\nBlogs\n\n\nStaging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.\n\n\nmeta name=\"robots\" content=\"noindex\"\n\n\nAlso make sure you select a demo domain for all staging blogs. Delete the test blog when it is no longer needed.", 
             "title": "Staging Environment"
         }, 
         {
@@ -262,17 +292,27 @@
         }, 
         {
             "location": "/guidelines/hubspot/Staging-Environment/#website-and-landing-pages", 
-            "text": "All the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration.", 
+            "text": "All the website and landing pages have to follow the staging workflow. This means whenever a change is requested on a page which is already live, make sure a staging equivalent is created at the top of it. This staging version will be used for any new development work and client demonstration.   If a new page is being developed, even then make sure that it follows the staging workflow.", 
             "title": "Website and Landing Pages"
         }, 
         {
             "location": "/guidelines/hubspot/Staging-Environment/#blogs", 
-            "text": "Staging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.  meta name=\"robots\" content=\"noindex\"  Also make sure you select a demo domain for all staging blogs.", 
+            "text": "Staging environment doesn\u2019t work for HubSpot Blogs. A work around is to create a new HubSpot Blog and make it invisible to search engines by adding following meta-tag in the content settings.  meta name=\"robots\" content=\"noindex\"  Also make sure you select a demo domain for all staging blogs. Delete the test blog when it is no longer needed.", 
             "title": "Blogs"
         }, 
         {
+            "location": "/guidelines/hubspot/checklist/", 
+            "text": "Checklist for client when assigning a task\n\n\n\n\n\n\nProvide following Mockups\n\n\n\n\nA ~375px mockup is needed for Phones.\n\n\nA ~960px is needed for Tablets Landscape.\n\n\nA ~ 1440px is need for Medium Resolution Desktops.\n\n\n(Optional) A ~1920px is needed for High Resolution Desktops.\n\n\n\n\n\n\n\n\nCreate and convey the forms.\n\n\n\n\n\n\nGive CTA information i.e. its URL, its label and should it open the URL in a new browser tab.\n\n\n\n\n\n\nProvide images in 1x, 2x and 3x (optional) size.", 
+            "title": "Checklist for client when assigning a task"
+        }, 
+        {
+            "location": "/guidelines/hubspot/checklist/#checklist-for-client-when-assigning-a-task", 
+            "text": "Provide following Mockups   A ~375px mockup is needed for Phones.  A ~960px is needed for Tablets Landscape.  A ~ 1440px is need for Medium Resolution Desktops.  (Optional) A ~1920px is needed for High Resolution Desktops.     Create and convey the forms.    Give CTA information i.e. its URL, its label and should it open the URL in a new browser tab.    Provide images in 1x, 2x and 3x (optional) size.", 
+            "title": "Checklist for client when assigning a task"
+        }, 
+        {
             "location": "/guidelines/hubspot/images/", 
-            "text": "Mockups and Images\n\n\nMockups\n\n\nProviding a mockup for every screen resolution is not possible so we have stream lined the process. \n\n\nA ~375px mockup is needed for Phones.\nA ~960px is needed for Tablets Landscape.\nA ~ 1440px is need for Medium Resolution Desktops.\n(Optional) A ~1920px is needed for High Resolution Desktops.\n\n\nImages and Logos\n\n\nDifferent screen densities require different size images e.g. 1x, 2x and 3x. It is preferable to provide all sizes of images. We will use \nRetina.js\n to dynamically display images based on screen densities. \n\n\nThis approach won\u2019t work on emails and we expect you to give us 2x images for emails.", 
+            "text": "Mockups and Images\n\n\nMockups\n\n\nProviding a mockup for every screen resolution is not possible so we have stream lined the process. \n\n\n\n\nA ~375px mockup is needed for Phones.\n\n\nA ~960px is needed for Tablets Landscape.\n\n\nA ~ 1440px is need for Medium Resolution Desktops.\n\n\n(Optional) A ~1920px is needed for High Resolution Desktops.\n\n\n\n\nImages and Logos\n\n\nDifferent screen densities require different size images e.g. 1x, 2x and 3x. It is preferable to provide all sizes of images. We will use \nRetina.js\n to dynamically display images based on screen densities. \n\n\nThis approach won\u2019t work on emails and we expect you to give us 2x images for emails.", 
             "title": "Mockups and Images"
         }, 
         {
@@ -282,7 +322,7 @@
         }, 
         {
             "location": "/guidelines/hubspot/images/#mockups", 
-            "text": "Providing a mockup for every screen resolution is not possible so we have stream lined the process.   A ~375px mockup is needed for Phones.\nA ~960px is needed for Tablets Landscape.\nA ~ 1440px is need for Medium Resolution Desktops.\n(Optional) A ~1920px is needed for High Resolution Desktops.", 
+            "text": "Providing a mockup for every screen resolution is not possible so we have stream lined the process.    A ~375px mockup is needed for Phones.  A ~960px is needed for Tablets Landscape.  A ~ 1440px is need for Medium Resolution Desktops.  (Optional) A ~1920px is needed for High Resolution Desktops.", 
             "title": "Mockups"
         }, 
         {
@@ -292,12 +332,12 @@
         }, 
         {
             "location": "/guidelines/hubspot/", 
-            "text": ".bs-sidebar {\n    display: none;\n}\n\n\n\n\nHubSpot Guidelines\n\n\nThis section covers the best practices and guidelines for working on HubSpot.\n\n\nOrganizing Design Manager and File Manager\n\n\nForms\n\n\nMockups and Images\n\n\nQuality Assurance\n\n\nIncluding CSS, JavaScript files and Images (Not for Emails)\n\n\nPage Load Time\n\n\nDeveloping Emails\n\n\nDeveloping Modules\n\n\nStaging Environment\n\n\nArchiving Strategy", 
+            "text": ".bs-sidebar {\n    display: none;\n}\n\n\n\n\nHubSpot Guidelines\n\n\nThis section covers the best practices and guidelines for working on HubSpot.\n\n\nOrganizing Design Manager and File Manager\n\n\nForms\n\n\nMockups and Images\n\n\nQuality Assurance\n\n\nIncluding CSS, JavaScript files and Images (Not for Emails)\n\n\nPage Load Time\n\n\nDeveloping Emails\n\n\nDeveloping Modules\n\n\nStaging Environment\n\n\nArchiving Strategy\n\n\nSEO\n\n\nChecklist for client when assigning a task", 
             "title": "Home"
         }, 
         {
             "location": "/guidelines/hubspot/#hubspot-guidelines", 
-            "text": "This section covers the best practices and guidelines for working on HubSpot.  Organizing Design Manager and File Manager  Forms  Mockups and Images  Quality Assurance  Including CSS, JavaScript files and Images (Not for Emails)  Page Load Time  Developing Emails  Developing Modules  Staging Environment  Archiving Strategy", 
+            "text": "This section covers the best practices and guidelines for working on HubSpot.  Organizing Design Manager and File Manager  Forms  Mockups and Images  Quality Assurance  Including CSS, JavaScript files and Images (Not for Emails)  Page Load Time  Developing Emails  Developing Modules  Staging Environment  Archiving Strategy  SEO  Checklist for client when assigning a task", 
             "title": "HubSpot Guidelines"
         }
     ]

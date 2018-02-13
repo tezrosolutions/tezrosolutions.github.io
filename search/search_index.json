@@ -272,12 +272,12 @@
         }, 
         {
             "location": "/guidelines/hubspot/Search-Engine-Optimization/", 
-            "text": "SEO\n\n\nSearch Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed. \n\n\nNormally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 4.\n\n\n\nFigure 5\n\n\nUsing h1 ad h2 tags\n\n\nSearch engines prioritize elements on the page using special algorithms. A search engine would generally give significance to elements such as h1, h2 tags. That\u2019s why make sure you put the page tagline in h1 tag and section titles in h2 tag.\n\n\nCanonical URLs\n\n\nCanonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values. \n\n\nAn easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 5.\n\n\n\nFigure 6", 
+            "text": "SEO\n\n\nSearch Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed. \n\n\nNormally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 5.\n\n\n\nFigure 5\n\n\nUsing h1 ad h2 tags\n\n\nSearch engines prioritize elements on the page using special algorithms. A search engine would generally give significance to elements such as h1, h2 tags. That\u2019s why make sure you put the page tagline in h1 tag and section titles in h2 tag.\n\n\nCanonical URLs\n\n\nCanonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values. \n\n\nAn easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 6.\n\n\n\nFigure 6", 
             "title": "SEO"
         }, 
         {
             "location": "/guidelines/hubspot/Search-Engine-Optimization/#seo", 
-            "text": "Search Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed.   Normally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 4.  \nFigure 5", 
+            "text": "Search Engine Optimization (SEO) is of paramount importance and is a non-trivial aspect of the page being developed.   Normally a page either it\u2019s a website page, a landing page or a blog post, it is developed around a keyword. That keyword can be a normal keyword or a long-tail keyword. The best practice is to use the keyword in page html title, URL, tagline and in the body. See Figure 5.  \nFigure 5", 
             "title": "SEO"
         }, 
         {
@@ -287,7 +287,7 @@
         }, 
         {
             "location": "/guidelines/hubspot/Search-Engine-Optimization/#canonical-urls", 
-            "text": "Canonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values.   An easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 5.  \nFigure 6", 
+            "text": "Canonical URLs are used to tell search engines that a certain set of URLs are actually just one page. This helps in preserving the original page rank as well as any link values.   An easy way to set Canonical URLs in HubSpot is to define it in the Content Settings for a specific domain. See Figure 6.  \nFigure 6", 
             "title": "Canonical URLs"
         }, 
         {

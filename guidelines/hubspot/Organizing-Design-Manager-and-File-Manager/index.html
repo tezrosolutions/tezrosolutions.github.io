@@ -150,6 +150,7 @@
         <li class="main active"><a href="#organizing-design-manager-and-file-manager">Organizing Design Manager and File Manager</a></li>
             <li><a href="#problemsituation">Problem/Situation</a></li>
             <li><a href="#key-guidelines">Key Guidelines</a></li>
+            <li><a href="#themes">Themes</a></li>
             <li><a href="#naming-folders">Naming Folders</a></li>
             <li><a href="#naming-templates">Naming Templates</a></li>
             <li><a href="#naming-coded-files">Naming Coded Files</a></li>
@@ -174,17 +175,26 @@
 <li>Use short forms and abbreviations where possible for example a thank you page template can be called Template_TY.</li>
 <li>The time unit for classifying stuff is a month e.g March 2018.</li>
 </ol>
-<h3 id="naming-folders">Naming Folders</h3>
-<h4 id="templates-and-coded-files">Templates and Coded files</h4>
-<p>All the templates, code files or static assets should be organized in a folder, which has a name that contains the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 1, Figure 2.</p>
-<h4 id="file-manager">File Manager</h4>
-<p>Based on our working experience, it best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Home &gt; Images &gt; 201712 (For all images used in home page in 201712). See Figure 3.</p>
+<h3 id="themes">Themes</h3>
+<p>A new concept we want to introduce here is Themes. A theme encloses a set of similar looking page templates. </p>
+<p>Whenever a re-skin is needed, a new theme should be started. The developer should assign an intuitive name to the theme i.e. February2018-Redesign, AquaColors etc.</p>
+<p>In order to create a theme all you have to do is create a folder in Design Manager and File Manager. See Figure 1.</p>
 <p><img alt="Figure 1" src="../../../img/guidelines/hubspot/figure-1.png" /></p>
 <p>Figure 1</p>
+<h3 id="naming-folders">Naming Folders</h3>
+<h4 id="templates">Templates</h4>
+<p>Inside a theme, all templates should be organized in folders. The name of these folders should contain the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 2.</p>
+<h4 id="coded-files">Coded Files</h4>
+<p>All coded files such as Javascript and CSS files should be organized in a folder which has following naming convention i.e. <ThemeName>-Assets e.g. 2018Redesign-Assets. See Figure 3. </p>
+<p>Also the master CSS file should be called styles.css and master Javascript file should be called scripts.js.</p>
+<h4 id="file-manager">File Manager</h4>
+<p>Based on our working experience, it is best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Theme &gt; Home &gt; Images &gt; 201712 (For all images used on home page in December 2017). See Figure 4.</p>
 <p><img alt="Figure 2" src="../../../img/guidelines/hubspot/figure-2.png" /></p>
 <p>Figure 2</p>
 <p><img alt="Figure 3" src="../../../img/guidelines/hubspot/figure-3.png" /></p>
 <p>Figure 3</p>
+<p><img alt="Figure 4" src="../../../img/guidelines/hubspot/figure-4.png" /></p>
+<p>Figure 4</p>
 <h3 id="naming-templates">Naming Templates</h3>
 <p>Naming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a “<em>Template</em>” and append it with a “_Live” in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.
 Some examples: 

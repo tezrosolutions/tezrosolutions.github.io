@@ -167,9 +167,43 @@
 </ol>
 <h3 id="development-best-practices">Development Best Practices</h3>
 <ol>
-<li>Each section in the email design should be translated as a module in HubSpot email template.</li>
-</ol>
-<p>More to be added later.</p></div>
+<li>
+<p>Each section in the email design should be translated as a module in HubSpot email template.</p>
+</li>
+<li>
+<p>Use in-line CSS: Styles aren't always supported. </p>
+</li>
+<li>
+<p>Use table layouts: HTML div layouts are CSS dependent and not supported by many of the email clients.</p>
+</li>
+<li>
+<p>Don't use rowspan: This causes weird spacing issues. </p>
+</li>
+<li>
+<p>Don't use background images: Support for these is limited. </p>
+</li>
+<li>
+<p>Style image tags with "display:block": This fixes weird spacing issues with hotmail. </p>
+</li>
+<li>
+<p>If using multiple tables, nest them in one parent table: This stops more weird spacing issues. </p>
+</li>
+<li>
+<p>Don't use Javascript: Again not supported very well. </p>
+</li>
+<li>
+<p>Make sure your email is legible with no images: The user may not load them. </p>
+</li>
+<li>
+<p>Provide an online version and link to it: This lets users see the intended content, even if their email client is terrible.</p>
+</li>
+<li>
+<p>Test on all available email clients using Litmus. Just because it works in one email client doesn't mean it works in others. </p>
+</li>
+<li>
+<p>Outlook 2007 uses Word to render HTML.</p>
+</li>
+</ol></div>
         </div>
 
         <footer class="col-md-12">

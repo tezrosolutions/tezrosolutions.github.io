@@ -163,61 +163,117 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="organizing-design-manager-and-file-manager">Organizing Design Manager and File Manager</h1>
-<h3 id="problemsituation">Problem/Situation</h3>
-<p>At the moment our templates, modules, code files and other static assets are arranged in an unstructured way. There is apparently no organization in place! Every time a new page design request is received, a template is being started from scratch (although leveraging the existing modules and code where possible). At the end of day we have a hard time figuring out what template is being used and which one is not used any more.</p>
-<p>The idea is to classify all templates, code files and static assets in an intuitive way.</p>
-<h3 id="key-guidelines">Key Guidelines</h3>
+<h2 id="problemsituation">Problem/Situation</h2>
+<p>At the moment our templates, modules, code files and other static assets are arranged
+in an unstructured way. There is apparently no organization in place! Every time a new
+page design request is received, a template is being started from scratch (although
+leveraging the existing modules and code where possible). At the end of day we have a
+hard time figuring out what template is being used and which one is not used any more.
+The idea is to classify all templates, code files and static assets in an intuitive way.
+<br><br><br></p>
+<h2 id="key-guidelines">Key Guidelines</h2>
 <ol>
-<li>Avoid special characters where possible. </li>
-<li>Keep the names and labels concise.  They shouldn’t be more than 25 characters.</li>
+<li>Avoid special characters where possible.</li>
+<li>Keep the names and labels concise. They shouldn’t be more than 25
+characters.</li>
 <li>A record retention strategy needs to be in place, we will talk about it in a bit.</li>
-<li>Use relevant date information in names and labels where possible, e.g. a folder that contains all the template built in January 2017 should have following name i.e. 201701Templates. Using reverse order date will arrange the list in chronological order (See Figure 1, Figure2).</li>
-<li>Use short forms and abbreviations where possible for example a thank you page template can be called Template_TY.</li>
-<li>The time unit for classifying stuff is a month e.g March 2018.</li>
+<li>Use relevant date information in names and labels where possible, e.g. a
+folder that contains all the templates built in January 2017 should have
+following name i.e. 201701Templates. Use of reverse order date will ensure
+that the list is displayed in chronological order (See Figure 1, Figure 2).</li>
+<li>Use short forms and abbreviations where possible for example a thank you
+page template can be called Template_TY.</li>
+<li>The time unit for classifying stuff is a month e.g March 2018.
+<br><br><br></li>
 </ol>
-<h3 id="themes">Themes</h3>
-<p>A new concept we want to introduce here is Themes. A theme encloses a set of similar looking page templates. </p>
-<p>Whenever a re-skin is needed, a new theme should be started. The developer should assign an intuitive name to the theme i.e. February2018-Redesign, AquaColors etc.</p>
-<p>In order to create a theme all you have to do is create a folder in Design Manager and File Manager. See Figure 1.</p>
+<h2 id="themes">Themes</h2>
+<p>A new concept we want to introduce here is Themes. A theme encloses a set of
+similar looking page templates.
+Whenever a re-skin is needed, a new theme should be started. The developer should
+assign an intuitive name to the theme i.e. February2018-Redesign, AquaColors etc.
+In order to create a theme all you have to do is create a folder in Design Manager
+and File Manager. See Figure 1.</p>
 <p><img alt="Figure 1" src="../../../img/guidelines/hubspot/figure-1.png" /></p>
 <p>Figure 1</p>
-<h3 id="naming-folders">Naming Folders</h3>
+<p>The next sections in this topic assume that you have already created a theme.
+<br><br><br></p>
+<h2 id="naming-folders">Naming Folders</h2>
 <h4 id="templates">Templates</h4>
-<p>Inside a theme, all templates should be organized in folders. The name of these folders should contain the date information in reverse order. Refer to point 4 in Key Guidelines section. See Figure 2.</p>
+<p>Inside a theme, all templates should be organized in folders. The name of these folders
+should contain the date information in reverse order. Refer to point 4 in Key Guidelines
+section. See Figure 2.
+<br><br></p>
 <h4 id="coded-files">Coded Files</h4>
-<p>All coded files such as Javascript and CSS files should be organized in a folder which has following naming convention i.e. <ThemeName>-Assets e.g. 2018Redesign-Assets. See Figure 3. </p>
-<p>Also the master CSS file should be called styles.css and master Javascript file should be called scripts.js.</p>
+<p>All coded files such as Javascript and CSS files should be organized in a folder which has
+following naming convention i.e. <ThemeName>-Assets e.g. 2018Redesign-Assets. See
+Figure 3.
+Also the master CSS file should be called styles.css and master Javascript file should be
+called scripts.js.
+<br><br></p>
 <h4 id="file-manager">File Manager</h4>
-<p>Based on our working experience, it is best to organize files based on the page or resource to which it belongs. For example all images for the home page should be organized in following manner: Theme &gt; Home &gt; Images &gt; 201712 (For all images used on home page in December 2017). See Figure 4.</p>
+<p>Based on our working experience, it is best to organize files based on the page or
+resource to which it belongs. For example all images for the home page should be
+organized in following manner: Theme &gt; Home &gt; Images &gt; 201712 (For all images
+used on home page in December 2017). See Figure 4.</p>
 <p><img alt="Figure 2" src="../../../img/guidelines/hubspot/figure-2.png" /></p>
 <p>Figure 2</p>
 <p><img alt="Figure 3" src="../../../img/guidelines/hubspot/figure-3.png" /></p>
 <p>Figure 3</p>
 <p><img alt="Figure 4" src="../../../img/guidelines/hubspot/figure-4.png" /></p>
-<p>Figure 4</p>
-<h3 id="naming-templates">Naming Templates</h3>
-<p>Naming a template is pretty straightforward. Prepend the page name with the year and month, for example 201801 and a “<em>Template</em>” and append it with a “_Live” in case the template is used for a live page. This will ensure that all live templates can be searched using the Live flag.
-Some examples: 
-1.  A template for a live blog will be called 201812_Template_Blog_Live.
-2.  A template for a development request demo page will be called 20181112_Template_RequestDemo.</p>
-<p>Whenever a new template is live make sure you remove "_Live" from any previous live template. At a given time only one template can have "_Live" flag in its name.</p>
-<p>If a template has been revised more than once in a month, put day as well in the first part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.</p>
-<h3 id="naming-coded-files">Naming Coded Files</h3>
-<p>All coded files should have a lower case name. For example CSS and Javascript files specific to the Blog can be called blog.css and blog.js respectively. The idea is to use lower case name for all files, which the end user should not play around with, such as the coded files.</p>
-<h3 id="naming-modules">Naming Modules</h3>
-<p>Modules cannot be classified into templates. There are two types of modules though i.e Custom and Global.</p>
+<p>Figure 4
+<br><br><br></p>
+<h2 id="naming-templates">Naming Templates</h2>
+<p>Naming a template is pretty straightforward. Prepend the page name with the year
+and month, for example 201801 and a “<em>Template</em>” and append it with a “_Live” in
+case the template is used for a live page. This will ensure that all live templates can
+be searched using the Live flag.
+Some examples:
+1. A template for a live blog will be called 201812_Template_Blog_Live.
+2. A template for a development request demo page will be called
+20181112_Template_RequestDemo.
+Whenever a new template is live make sure you remove "_Live" from any previous live
+template. At a given time only one template can have "_Live" flag in its name.
+If a template has been revised more than once in a month, put day as well in the first
+part of the template name e.g. 20171230_Template_FAQs, 20171219_Template_FAQs.
+<br><br><br></p>
+<h2 id="naming-coded-files">Naming Coded Files</h2>
+<p>All coded files should have a lower case name. For example CSS and Javascript files
+specific to the Blog can be called blog.css and blog.js respectively. The idea is to use
+lower case name for all files, which the end user should not play around with, such as
+the coded files.
+<br><br><br></p>
+<h2 id="naming-modules">Naming Modules</h2>
+<p>Modules cannot be classified into templates. There are two types of modules though
+i.e Custom and Global.
+<br><br></p>
 <h4 id="custom-modules">Custom Modules</h4>
-<p>The naming convention for a custom module should be intuitive and should reflect the feature it is developed for and the reverse timestamp. For example if a module is build for a carousel in Feb 2018, it should be called 201802_Custom_Carousel. Using reverse timestamp will put it in a chronological order.</p>
+<p>The naming convention for a custom module should be intuitive and should reflect
+the feature it is developed for and the reverse timestamp. For example if a module is
+build for a carousel in Feb 2018 and has to be used in theme 2018Redesign, it
+should be called 201802_2018Redesign_Custom_Carousel. Use of reverse timestamp
+will put list in a chronological order.
+<br><br></p>
 <h4 id="global-modules">Global Modules</h4>
-<p>The naming convention for global modules will remain similar to custom modules. Just replace Custom with Global e.g. a global module for header would be called 201802_Global_Header.</p>
-<h3 id="naming-module-fields">Naming Module Fields</h3>
-<p>A module field should be named in following order: Purpose Type e.g. if a text field is used for displaying headline in a hero area module, it should be called Headline Text. Let HubSpot engine take care of internal naming.</p>
-<h3 id="naming-pages">Naming Pages</h3>
-<p>Naming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure any previous version of the page is archived when a new page goes live. </p>
-<p>The internal name and title of the page should be identical.</p>
-<h3 id="naming-ctas">Naming CTAs</h3>
-<p>We are expecting the digital marketing team to provide details of the CTAs i.e. its URL, its label and should it open the URL in a new browser tab.</p>
-<p>The CTA’s name will also include timestamp in reverse order and the label. For example if a CTA is for requesting a demo it should be named as  201801_Request_Demo.</p></div>
+<p>The naming convention for global modules will remain similar to custom modules.
+Just replace Custom with Global e.g. a global module for header would be called
+201802_2018Redesign_Global_Header.
+<br><br><br></p>
+<h2 id="naming-module-fields">Naming Module Fields</h2>
+<p>A module field should be named in following order: Purpose Type e.g. if a text field
+is used for displaying headline in a hero area module, it should be called Headline
+Text. Let HubSpot engine take care of internal naming.
+<br><br><br></p>
+<h2 id="naming-pages">Naming Pages</h2>
+<p>Naming pages is pretty straightforward e.g. FAQs, Terms and Conditions. Make sure
+any previous version of the page is archived when a new page goes live.
+The internal name and title of the page should be identical.
+<br><br><br></p>
+<h2 id="naming-ctas">Naming CTAs</h2>
+<p>We are expecting the digital marketing team to provide details of the CTAs i.e. its
+URL, its label and should it open the URL in a new browser tab.
+The CTA’s name will also include timestamp in reverse order and the label. For
+example if a CTA is for requesting a demo it should be named as
+201801_2018Redesign_Request_Demo.</p></div>
         </div>
 
         <footer class="col-md-12">

@@ -155,19 +155,46 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="including-css-javascript-files-and-images-not-for-emails">Including CSS, JavaScript files and Images (Not for Emails)</h1>
-<h3 id="css-and-javascript-files">CSS and JavaScript files</h3>
+<h2 id="css-and-javascript-files">CSS and JavaScript files</h2>
 <ol>
-<li>All JavaScript files will only be included in the footer.</li>
-<li>All CSS files will only be included in the header.</li>
-<li>No inline CSS and JavaScript is allowed. This will keep the code cleaner and manageable.</li>
-<li>Any third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.</li>
-<li>Where possible, create one respective file for all custom CSS and Javascript code i.e. styles.css and scripts.js respectively.</li>
-<li>All custom JavaScript code should be wrapped inside jquery document.ready function.</li>
+<li>
+<p>All JavaScript files will only be included in the footer.</p>
+</li>
+<li>
+<p>All CSS files will only be included in the header.</p>
+</li>
+<li>
+<p>No inline CSS and JavaScript is allowed. This will keep the code cleaner and
+manageable.</p>
+</li>
+<li>
+<p>Any third party CSS and JavaScript library will be added to files called
+libraries.css and libraries.js respectively. Separately including each library
+slows down the page load time and causes additional render blocking.</p>
+</li>
+<li>
+<p>All the globally used CSS and Javascript should be put in global.css and
+global.js respectively.</p>
+</li>
+<li>
+<p>The CSS and Javascript specific to the page should be put in page specific CSS
+and Javascript files.</p>
+</li>
+<li>
+<p>All custom JavaScript code should be wrapped inside jquery document.ready
+function.
+<br><br><br></p>
+</li>
 </ol>
-<h3 id="images">Images</h3>
+<h2 id="images">Images</h2>
 <ol>
-<li>We will have three types of images i.e. 1x, 2x and 3x. Retina.js will be used to dynamically select the appropriate type for a screen.</li>
-<li>Use sprites and font icons whenever possible.</li>
+<li>
+<p>We will have three types of images i.e. 1x, 2x and 3x. Retina.js will be used to
+dynamically select the appropriate type for a screen.</p>
+</li>
+<li>
+<p>Use sprites and font icons whenever possible.</p>
+</li>
 </ol></div>
         </div>
 

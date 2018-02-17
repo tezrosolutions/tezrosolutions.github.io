@@ -153,14 +153,35 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="page-load-time">Page Load Time</h1>
-<p>There is not much we can do on server side for improving page load times but here is what we should do on the client side:</p>
+<p>TThere is not much we can do on server side for improving page load times but here
+is what we should do on the client side:</p>
 <ol>
-<li>Add Javascript files in footer only and CSS files in header only.</li>
-<li>Any third party CSS or JavaScript library will be added to a to a file like libraries.js or libraries.css. Separately including each library slows down the page load time and causes additional render blocking.</li>
-<li>Use font icons where possible.</li>
-<li>Use sprites and low res images.</li>
-<li>Make sure only needed CSS and Javascript is loaded on the page.</li>
-<li>Make sure to load files on the page from CDNs as they have better caching mechanism. This will also ensure files are loaded from different domains in practice.</li>
+<li>
+<p>Add Javascript files in footer only and CSS files in header only.</p>
+</li>
+<li>
+<p>Any third party CSS or JavaScript library will be added to a to a file like
+libraries.js or libraries.css. Separately including each library slows down the
+page load time and causes additional render blocking.</p>
+</li>
+<li>
+<p>Use font icons where possible.</p>
+</li>
+<li>
+<p>Use sprites and low resolution images.</p>
+</li>
+<li>
+<p>Make sure only needed CSS and Javascript is loaded on the page.</p>
+</li>
+<li>
+<p>Make sure to load files on the page from CDNs as they have better caching
+mechanism. This will also ensure files are loaded from different domains in
+practice.</p>
+</li>
+<li>
+<p>Implement image lazy loading on the page where needed. Following library
+can be used: http://jquery.eisbehr.de/lazy/example_basic-usage</p>
+</li>
 </ol></div>
         </div>
 
